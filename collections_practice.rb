@@ -47,8 +47,9 @@ def count_elements(array)
       i = 0 
       item[:count] = count[i]
       i= i + 1 
-      binding.pry
-    end  
+     # binding.pry
+    end 
+    binding.pry
 end    
       
 
