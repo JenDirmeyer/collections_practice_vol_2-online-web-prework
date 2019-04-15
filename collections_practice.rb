@@ -41,7 +41,7 @@ def count_elements(array)
     count = []
     array.each do |item|
       count << array.count(item)
-      binding.pry
+      #binding.pry
     end  
     count
     binding.pry
