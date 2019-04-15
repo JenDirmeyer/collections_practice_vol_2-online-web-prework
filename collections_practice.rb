@@ -42,9 +42,13 @@ def count_elements(array)
     array.each do |item|
       count << array.count(item)
       #binding.pry
+    end 
+    array.each do |item|
+      i = 0 
+      item[:count] = count(i)
+      i= i + 1 
+      binding.pry
     end  
-    count
-    binding.pry
 end    
       
 
