@@ -38,11 +38,16 @@ def remove_non_strings(args)
 end  
 
 def count_elements(array)
+  count = ()
     array.each do |item|
       count = array.count(item)
-      item[:count] = count
       #binding.pry
     end
+    array.each do |item|
+      binding.pry
+      item[:count] = count
+      binding.pry
+    end  
 end    
       
 
