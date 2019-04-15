@@ -40,8 +40,8 @@ end
 def count_elements(array)
     count = []
     array.each do |item|
-      count = array.count(item)
-      item[:count] = count
+      count << array.count(item)
+      binding.pry
     end  
 end    
       
