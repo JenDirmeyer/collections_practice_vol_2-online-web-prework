@@ -43,7 +43,7 @@ def count_elements(array)
       #item[:count] = count
       #binding.pry
       item.each do |key, value|
-        count = item.count(value)
+        item[:count] = count
         binding.pry
       end
       
