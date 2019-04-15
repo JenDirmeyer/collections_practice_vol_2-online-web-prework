@@ -43,6 +43,8 @@ def count_elements(array)
       count << array.count(item)
       binding.pry
     end  
+    count
+    binding.pry
 end    
       
 
