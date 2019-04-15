@@ -47,9 +47,10 @@ def count_elements(array)
     array.each do |item|
       item[:count] = count[i]
       i= i + 1 
-     binding.pry
+     #binding.pry
     end 
-    binding.pry
+    #binding.pry
+    array.uniq
 end    
       
 
